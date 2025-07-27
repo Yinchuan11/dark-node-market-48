@@ -25,7 +25,7 @@ const App = () => (
           <Toaster />
           <Sonner />
           <PrivacyWarning />
-          <BrowserRouter basename="/oracle">
+          <BrowserRouter basename="/dark-node-market-48">
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/auth" element={<Auth />} />
