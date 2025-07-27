@@ -25,7 +25,7 @@ const App = () => (
           <Toaster />
           <Sonner />
           <PrivacyWarning />
-          <BrowserRouter>
+          <BrowserRouter basename="/oracle">
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/auth" element={<Auth />} />
